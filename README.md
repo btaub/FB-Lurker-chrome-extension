@@ -9,6 +9,10 @@ document.getElementById("pagelet_composer").remove();
 
 That's it.
 
-# Example
+# Example with extension enabled:
 
 <img src="facebook-lurker.png" />
+
+# Example without extension enabled:
+
+<img src="facebook.png" />
