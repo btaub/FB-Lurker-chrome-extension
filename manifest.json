@@ -1,0 +1,19 @@
+{
+  "name": "FB-Lurker Extension",
+  "manifest_version": 2,
+  "version": "0.1",
+  "description": "Hides the post dialog on Facebook. https://github.com/btaub/FB-Lurker-chrome-extension",
+  "permissions": ["https://*.facebook.com/*", "https://*.fb.com/*"],
+  "browser_action": {
+    "default_title": "FB-Lurker v0.1",
+    "default_popup": "popup.html"
+   },
+"content_scripts": [
+   {
+     "matches": [
+       "https://*.facebook.com/*", "https://*.fb.com/*"
+     ],
+      "js": ["content.js"]
+   }
+   ]
+}
