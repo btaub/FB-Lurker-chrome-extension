@@ -8,3 +8,7 @@ document.getElementById("pagelet_composer").remove();
 ```
 
 That's it.
+
+# Example
+
+<img src="facebook-lurker.png" />
